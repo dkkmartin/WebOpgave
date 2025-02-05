@@ -1,0 +1,28 @@
+.section1 {
+  height: 80vh;
+  color: var(--hvid);
+  background-image: url(../assets/topbillede.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.section1__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section1__heading {
+  font-size: 60px;
+  line-height: 1;
+}
+
+.section1__container__heading {
+  line-height: 1;
+  padding-bottom: 1rem;
+}
+
+.section1__container__subheading {
+  padding-bottom: 1rem;
+}

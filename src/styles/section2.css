@@ -1,0 +1,20 @@
+.section2 {
+  height: 60vh;
+  background-color: var(--gul);
+  display: flex;
+  align-items: center;
+}
+
+.section2__container {
+  text-align: center;
+}
+
+.section2__heading {
+  font-size: 50px;
+  padding-bottom: 1rem;
+}
+
+.section2__subheading {
+  max-width: 800px;
+  padding-bottom: 2rem;
+}
