@@ -1,5 +1,5 @@
 .section1 {
-  height: 80vh;
+  height: calc(100vh - 100px);
   color: var(--hvid);
   background-image: url(../assets/topbillede.jpg);
   background-position: center;
@@ -14,7 +14,6 @@
 }
 
 .section1__heading {
-  font-size: 60px;
   line-height: 1;
 }
 
