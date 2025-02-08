@@ -1,0 +1,19 @@
+.section2 {
+  min-height: clamp(400px, 60vh, 700px);
+  background-color: var(--gul);
+  display: flex;
+  align-items: center;
+}
+
+.section2__container {
+  text-align: center;
+}
+
+.section2__heading {
+  padding-bottom: 1rem;
+}
+
+.section2__subheading {
+  max-width: 800px;
+  padding-bottom: 2rem;
+}

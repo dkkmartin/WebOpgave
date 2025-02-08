@@ -1,0 +1,9 @@
+.section3--mirrored {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+  .section3--mirrored {
+    flex-direction: column;
+  }
+}
