@@ -1,5 +1,5 @@
 .section3 {
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   gap: 4rem;
@@ -21,7 +21,6 @@
 }
 
 .section3__heading {
-  font-size: 50px;
   padding-bottom: 1rem;
 }
 
@@ -29,21 +28,19 @@
   padding-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .section3 {
     flex-direction: column;
-    height: auto;
-    padding: 2rem 1rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
   }
 
   .section3__container {
-    width: 100%;
-    height: 300px;
+    width: 80%;
   }
 
   .section3__container--subheading {
     width: 100%;
-    padding-left: 0;
-    padding-top: 2rem;
+    text-align: center;
   }
 }
