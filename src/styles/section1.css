@@ -1,5 +1,5 @@
 .section1 {
-  height: calc(100vh - 100px);
+  height: clamp(500px, calc(100vh - 100px), 100vh);
   color: var(--hvid);
   background-image: url(../assets/topbillede.jpg);
   background-position: center;

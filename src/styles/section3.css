@@ -1,5 +1,5 @@
 .section3 {
-  min-height: 80vh;
+  min-height: clamp(500px, 80vh, 1000px);
   display: flex;
   align-items: center;
   gap: 4rem;

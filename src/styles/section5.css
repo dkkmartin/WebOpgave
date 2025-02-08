@@ -1,5 +1,5 @@
 .section5 {
-  min-height: 70vh;
+  min-height: clamp(500px, 70vh, 800px);
   background-color: var(--gul);
   display: flex;
   align-items: center;

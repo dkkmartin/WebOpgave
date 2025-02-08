@@ -1,5 +1,5 @@
 .section4 {
-  min-height: 70vh;
+  min-height: clamp(300px, 70vh, 600px);
   display: flex;
 }
 
